@@ -1,0 +1,40 @@
+﻿{
+  "sections":[
+    {
+      "sectionID":"_start",
+      "titletext":"Your stand in an open field, with the ability to walk freely in all directions.",
+      "options":["Go North", "Go South", "Go East", "Go West"],
+      "optionSectionLinks":["_start-n","_start-s", "_start-e", "_start-w"]
+    },
+    {
+      "sectionID":"_start-n",
+      "titletext":"You run until you hit a forest. Dead end.",
+      "options":["Go Back"],
+      "optionSectionLinks":["_start"]
+    },
+    {
+      "sectionID":"_start-s",
+      "titletext":"You run until you hit a forest. Dead end.",
+      "options":["Go Back"],
+      "optionSectionLinks":["_start"]
+    },
+    {
+      "sectionID":"_start-e",
+      "titletext":"You run until you hit a forest. Dead end.",
+      "options":["Go Back"],
+      "optionSectionLinks":["_start"]
+    },
+    {
+      "sectionID":"_start-w",
+      "titletext":"You encounter a small house sitting in the woods",
+      "options":["Go Back", "Enter the house"],
+      "optionSectionLinks":["_start", "house-main"]
+    },
+    {
+      "sectionID":"house-main",
+      "titletext":"You step into a well furnished house. A staircase lies to your west, the door behind you, and the living room up ahead",
+      "options":["Go Back", "Go into the Living Room", "Go up the stairs"],
+      "optionSectionLinks":["_start-w", "house-livingroom", "house-stairs"]
+    }
+  ]
+}
