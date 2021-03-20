@@ -1,4 +1,5 @@
 ﻿{
+  "debugMode":false,
   "sections":[
     {
       "sectionID":"_start",
